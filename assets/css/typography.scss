@@ -1,0 +1,60 @@
+@font-face {
+  font-family: PoppinsLight;
+  src: url(~/assets/fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(~/assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(~/assets/fonts/Poppins-Bold.ttf);
+}
+
+body {
+
+}
+
+p, li, .logo {
+font-family: PoppinsLight, sans-serif;
+  font-size: var(--size-m);
+  line-height: 1.8;
+  color: hsl(221deg 57% 86%);
+  max-width: 700px;
+}
+
+h1 {
+ color: white;
+ font-family: PoppinsBold, sans-serif;
+ font-size: var(--size-xxl);
+ max-width: 900px;
+ margin-bottom: var(--space-s);
+ line-height: 1.2;
+}
+a {
+  text-decoration-skip-ink: 2px;
+  color: inherit;
+  text-decoration-color: hotpink;
+  transition: all 0.2s ease-in-out;
+  &:focus-visible {
+    background-color: rgba(255, 105, 180, 0.26);
+    border-bottom: 3px solid hotpink;
+    text-decoration: none;
+  }
+  &:hover {
+
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+h1 {
+
+ font-size: var(--size-xl);
+
+}
+p, li {
+font-size: var(--size-m);
+line-height: 1.4;
+}
+}

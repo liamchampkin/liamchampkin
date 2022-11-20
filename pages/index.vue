@@ -1,17 +1,82 @@
 <!-- ./pages/index.vue -->
 <template>
-  <main>
-    <section class="hero-section">
-      <header>
-        <h1 class="font-black text-8xl">Welcome to my site</h1>
-        <p>Take a look at <NuxtLink to="/blog">my blog</NuxtLink>
-          <ContentDoc />
+  <Header />
+  <main class="content-container">
+    <section class="hero-section grid-12">
+
+
+      <img class="liam-champkin" src="~/assets/images/liam-champkin.jpg"
+        alt="A profile picture of Liam wearing a silly hat">
+      <div class="text">
+        <h1 class="">UX <span class="highlight-one">/</span> UI developer specialising in design systems and
+          accessibility
+        </h1>
+        <p>I help design and develop digital products with a focus on user research and accessibility through design
+          systems.
+          I have experience in developing Vue, Nuxt, Wordpress and Drupal websites.
+
         </p>
-      </header>
+      </div>
+
+
     </section>
+    <div class="nightshine"></div>
   </main>
+  <Footer />
 </template>
 
 <style scoped>
+.hero-section {
+  align-content: center;
+  height: calc(100vh - var(--size-xxxl) - var(--size-xxxl));
+}
+
+.mission {}
+
+.squiggle {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: hotpink;
+
+}
+
+.text {
+  grid-column: 5 / 12;
+  align-self: center;
+  z-index: 2;
+}
+
+.liam-champkin {
+  opacity: 1;
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border: 6px double #00bdff;
+  padding: 6px;
+  z-index: 1;
+  position: relative;
+  grid-column: 2 / 4;
+  box-shadow: 3px 4px 8px #00000047;
+
+}
+
+@media only screen and (max-width: 800px) {
+  .text {
+    grid-column: 1 / 12;
+    align-self: center;
+    z-index: 2;
+  }
+
+  .liam-champkin {
+    height: 100px;
+    width: 100px;
+    margin-bottom: var(--space-l);
+    grid-column: 1 / 13;
+
+
+  }
+}
+
 /* ... */
 </style>

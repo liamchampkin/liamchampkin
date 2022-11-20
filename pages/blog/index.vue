@@ -7,6 +7,7 @@ useHead({
 });
 </script>
 <template>
+  <Header />
   <main>
     <header class="page-heading">
       <div class="wrapper">
@@ -48,6 +49,7 @@ useHead({
         </template>
       </ContentList>
     </section>
+    <div class="nightshine"></div>
   </main>
 </template>
 <style scoped>
