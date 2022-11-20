@@ -5,7 +5,7 @@
         <span>Liam Champkin<span class="highlight-one">.</span></span>
       </div>
 
-      <!-- <Nav /> -->
+      <Nav />
 
     </div>
   </header>
