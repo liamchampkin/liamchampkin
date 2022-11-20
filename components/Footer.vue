@@ -2,7 +2,7 @@
   <footer>
     <div class="content-container">
       <div class="left">
-        <span>Liam Champkin © {{ new Date().getFullYear() }}</span>
+        <p class="size-small">Liam Champkin © {{ new Date().getFullYear() }}</p>
       </div>
       <div class="right">
         <nav>
@@ -56,6 +56,7 @@ footer {
   justify-content: center;
   height: 100%;
 }
+
 
 nav {
   width: 100%;
