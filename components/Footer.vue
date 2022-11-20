@@ -95,4 +95,35 @@ nav {
   }
 
 }
+
+@media only screen and (max-width: 800px) {
+  footer {
+    height: auto;
+    padding: var(--space-s) 0;
+  }
+
+  .left {
+    margin-bottom: var(--space-s);
+  }
+
+  .content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  nav ul {
+    display: block;
+
+    li {
+      display: block;
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+
+}
 </style>
