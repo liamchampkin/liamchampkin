@@ -4,19 +4,26 @@
   <main class="content-container">
     <section class="hero-section grid-12">
 
-
-      <img class="liam-champkin" src="~/assets/images/me.png" alt="A profile picture of Liam wearing a silly hat">
-      <div class="text">
-        <h1 class="">UX <span class="highlight-one">/</span> UI developer specialising in design systems and
-          accessibility
-        </h1>
-        <p>I help design and develop digital products with a focus on user research and accessibility through design
-          systems.
-          I have experience in developing Vue, Nuxt, Wordpress and Drupal websites.
-
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
         </p>
-      </div>
-
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
 
     </section>
     <div class="nightshine"></div>
