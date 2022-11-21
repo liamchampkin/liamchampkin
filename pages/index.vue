@@ -24,6 +24,12 @@
   <Footer />
 </template>
 
+<script setup>
+useHead({
+  title: 'Liam Champkin - UX / UI developer'
+})
+</script>
+
 <style scoped>
 .hero-section {
   align-content: center;
