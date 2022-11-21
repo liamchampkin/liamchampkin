@@ -30,11 +30,11 @@ main {
 }
 
 .highlight-one {
-  color: hotpink;
+  color: var(--primary-accent);
 }
 
 .nightshine {
-    background: linear-gradient(45deg, hotpink 0%, rgb(255, 76, 165) 50%, #0077ff 100%);
+    background: linear-gradient(45deg, var(--primary-accent) 0%, rgb(255, 76, 165) 50%, #0077ff 100%);
     opacity: 0.5;
     filter: blur(30vh);
     height: 60vh;

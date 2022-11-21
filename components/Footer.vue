@@ -87,7 +87,7 @@ nav {
 
         &:hover {
           text-decoration: underline;
-          text-decoration-color: hotpink;
+          text-decoration-color: var(--primary-accent);
           text-decoration-style: wavy;
         }
       }

@@ -46,7 +46,7 @@ nav {
 
   .router-link-active {
 
-    box-shadow: 0px 4px 0px 0px hotpink;
+    box-shadow: 0px 4px 0px 0px var(--primary-accent);
 
   }
 }

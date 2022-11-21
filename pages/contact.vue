@@ -42,7 +42,7 @@
 .squiggle {
   text-decoration: underline;
   text-decoration-style: wavy;
-  text-decoration-color: hotpink;
+  text-decoration-color: var(--primary-accent);
 
 }
 
