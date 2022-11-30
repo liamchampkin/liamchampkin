@@ -5,7 +5,7 @@
     <section class="hero-section grid-12">
 
 
-      <img class="liam-champkin" src="~/assets/images/me.png" alt="A profile picture of Liam wearing a silly hat">
+      <img class="liam-champkin" src="https://media.giphy.com/media/dhCx7EyeGYD7O/giphy.gif" alt="A profile picture of Liam wearing a silly hat">
       <div class="text">
         <h1 class="">UX <span class="highlight-one">/</span> UI developer specialising in design systems and
           accessibility
