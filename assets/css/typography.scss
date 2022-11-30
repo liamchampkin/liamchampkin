@@ -23,6 +23,10 @@ font-family: PoppinsLight, sans-serif;
   max-width: 700px;
 }
 
+article p {
+  margin-bottom: var(--space-s);
+}
+
 .size-small {
   font-size: var(--size-s);
 }
@@ -34,6 +38,7 @@ h1 {
  max-width: 900px;
  margin-bottom: var(--space-s);
  line-height: 1.2;
+ letter-spacing: -2px;
 }
 a {
   text-decoration-skip-ink: 2px;

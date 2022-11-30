@@ -1,4 +1,4 @@
-<!-- ./pages/blog/index.vue -->
+
 <script setup>
 // set meta for page
 useHead({
@@ -20,12 +20,10 @@ useHead({
       <section class="posts ">
         <!-- Render list of all articles in ./content/blog using `path` -->
         <!-- Provide only defined fields in the `:query` prop -->
-        <ContentList path="/blog" :query="{
+        <ContentList path="/mixtape" :query="{
           only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color'],
           where: {
-            category: {
-              $contains: mixtape,
-            },
+        
           },
           $sensitivity: 'base',
         }">

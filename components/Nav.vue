@@ -10,7 +10,9 @@
       <li>
         <NuxtLink to="/contact">Contact</NuxtLink>
       </li>
-      <li>Mixtapes</li>
+      <li>
+        <NuxtLink to="/mixtapes">Mixtapes</NuxtLink>
+      </li>
     </ul>
   </nav>
 </template>

@@ -17,6 +17,7 @@ body {
 .grid-12 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  gap: var(--space-m);
 }
 
 main {
@@ -34,7 +35,7 @@ main {
 }
 
 .nightshine {
-    background: linear-gradient(45deg, rgb(255, 76, 165) 0%, var(--primary-accent) 50%, #0077ff 100%);
+    background: linear-gradient(45deg, rgb(54 12 32) 0%, #791949 50%, #0077ff 100%);
     opacity: 0.5;
     filter: blur(30vh);
     height: 60vh;
