@@ -28,6 +28,8 @@ main {
   max-width: 1400px;
   margin: auto;
   padding: 0 var(--space-m);
+  container-type: inline-size;
+  container-name: contentContainer;
 }
 
 .highlight-one {

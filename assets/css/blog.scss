@@ -17,9 +17,20 @@
 
     }
 }
-article {
+.article {
     grid-column: 3/11;
+}
 
+@container contentContainer (max-width: 1000px) {
+    .article {
+        grid-column: 2/12;
+    }
+}
+
+@container contentContainer (max-width: 700px) {
+    .article {
+        grid-column: 1/13;
+    }
 }
 
 .article-content {
@@ -58,5 +69,12 @@ article {
     align-items: center;
     color: white;
         }
+    }
+}
+
+iframe {
+    margin-bottom: var(--space-m);
+    a {
+        display: none;
     }
 }

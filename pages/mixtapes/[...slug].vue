@@ -6,7 +6,7 @@
       <section class="grid-12">
 
         <ContentDoc v-slot="{ doc }">
-          <article>
+          <article class="article">
             <div class="article-meta" :style="{ 'background-color': doc.color }">
               <img class="liam-champkin" src="~/assets/images/me.png"
                 alt="A profile picture of Liam wearing a silly hat">
