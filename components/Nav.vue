@@ -7,9 +7,9 @@
       <li>
         <NuxtLink to="/blog">Blog</NuxtLink>
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink to="/contact">Contact</NuxtLink>
-      </li>
+      </li> -->
       <li>
         <NuxtLink to="/mixtapes">Mixtapes</NuxtLink>
       </li>

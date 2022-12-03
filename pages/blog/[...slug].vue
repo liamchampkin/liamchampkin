@@ -5,7 +5,6 @@
     <div class="content-container">
       <section class="grid-12">
 
-
         <ContentDoc v-slot="{ doc }">
           <article class="article">
             <div class="article-meta" :style="{ 'background-color': doc.color }">
