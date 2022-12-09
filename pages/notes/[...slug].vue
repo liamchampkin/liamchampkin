@@ -6,12 +6,14 @@
       <section class="grid-12">
 
         <ContentDoc v-slot="{ doc }">
-          <article class="article">
+          <article class="article article-post">
             <div class="article-meta" :style="{ 'background-color': doc.color }">
-              <img class="liam-champkin" src="~/assets/images/me.png"
-                alt="A profile picture of Liam wearing a silly hat">
-              <h1>{{ doc.title }}</h1>
-              <p>Category: {{ doc.category }}</p>
+              <header>
+                <img class="liam-champkin" src="~/assets/images/me.png"
+                  alt="A profile picture of Liam wearing a silly hat">
+                <h1>{{ doc.title }}</h1>
+                <p>Category: {{ doc.category }}</p>
+              </header>
               <!-- <p>{{ doc.date }}</p> -->
             </div>
             <div class="article-content">
@@ -23,6 +25,7 @@
     </div>
     <div class="nightshine"></div>
   </main>
+  <Footer />
 </template>
 
 <style scoped>

@@ -7,7 +7,7 @@ id: 'zwift'
 date: 2022-08-06
 category: UX article
 tags: zwift, fitness
-color: hsl(335deg 82% 66% / 69%)
+color: rgb(114 239 97 / 69%)
 description: |
   Zwift recently underwent it’s biggest UI change since it launched in 2017.  As an avid user of Zwift I thought I would discuss how it has affected me and what changes the Zwift HQ could make to improve the experience.
 

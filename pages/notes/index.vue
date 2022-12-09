@@ -1,7 +1,7 @@
 <!-- ./pages/blog/index.vue -->
 <script setup>
 const title = ref('Notes')
-const desc = ref("Here's a list of all my great notex")
+const desc = ref("")
 // set meta for page
 useHead({
   title: title,

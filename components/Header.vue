@@ -2,7 +2,7 @@
   <header>
     <div class="header-inner content-container">
       <div class="logo">
-        <span>Liam Champkin<span class="highlight-one">.</span></span>
+        <span><a href="/">Liam Champkin</a><span class="highlight-one">.</span></span>
       </div>
 
       <Nav />
@@ -27,6 +27,10 @@ header {
   height: var(--size-xxxl);
 
 
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 .header-inner {

@@ -2,7 +2,7 @@
 <script setup>
 // set meta for page
 const title = ref('Mixtapes')
-const desc = ref("Here's a list of all my great notex")
+const desc = ref("")
 useHead({
   title: title,
   meta: [{ name: "description", content: "Here's a list of all my great articles" }],

@@ -8,14 +8,17 @@ date: 2022-08-06
 category: UX article
 tags: zwift, fitness
 color: hsla(161deg, 100%, 51%, 0.16)
+draft: true
 description: |
   Zwift recently underwent it’s biggest UI change since it launched in 2017.  As an avid user of Zwift I thought I would discuss how it has affected me and what changes the Zwift HQ could make to improve the experience.
 
 ---
 
 
+First of all I would say that I use all of [Zwift's](https://uk.zwift.com/) main features except training plans. I race, I do workouts and I sometimes just open Zwift to ride at my own pace.
 
-First of all I would say that I use all of Zwifts main features except training plans. I race, I do workouts and I sometimes just open Zwift to ride at my own pace.
+![image alt text](/img/yumezi.webp)
+
 
 The racing experience hasn’t changed too much for me since the UI change but I’ll get onto how Zwift could improve the race experience later on in the article.
 
