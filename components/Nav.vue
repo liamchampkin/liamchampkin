@@ -5,7 +5,7 @@
         <NuxtLink to="/">Home</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/blog">Blog</NuxtLink>
+        <NuxtLink to="/notes">Notes</NuxtLink>
       </li>
       <!-- <li>
         <NuxtLink to="/contact">Contact</NuxtLink>
@@ -32,6 +32,8 @@ nav {
   justify-self: flex-end;
 
   ul {
+    padding-left: 0;
+
     li {
       display: inline;
       color: white;

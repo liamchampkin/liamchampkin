@@ -1,9 +1,11 @@
 <!-- ./pages/blog/index.vue -->
 <script setup>
+const title = ref('Notes')
+const desc = ref("Here's a list of all my great notex")
 // set meta for page
 useHead({
-  title: "All articles",
-  meta: [{ name: "description", content: "Here's a list of all my great articles" }],
+  title: title,
+  meta: [{ name: "description", content: desc }],
 });
 </script>
 <template>
@@ -12,21 +14,15 @@ useHead({
     <div class="content-container">
       <header class="page-heading">
         <div class="wrapper">
-          <h1 class="text-5xl font-extrabold">Notes</h1>
-          <p class="font-medium text-lg">Notes include random thoughts and the odd UX and front end dev article. Check
-            out my Mixtapes section for uninterrupted DJ sets.</p>
+          <h1>{{ title }}</h1>
+          <p class="font-medium text-lg">{{ desc }}</p>
         </div>
       </header>
       <section class="posts ">
         <!-- Render list of all articles in ./content/blog using `path` -->
         <!-- Provide only defined fields in the `:query` prop -->
-        <ContentList path="/blog" :query="{
+        <ContentList path="/notes" :query="{
           only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color'],
-          where: {
-            category: {
-              $contains: mixtape,
-            },
-          },
           $sensitivity: 'base',
         }">
           <!-- Default list slot -->

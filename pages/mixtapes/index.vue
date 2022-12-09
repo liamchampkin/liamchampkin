@@ -1,8 +1,10 @@
 
 <script setup>
 // set meta for page
+const title = ref('Mixtapes')
+const desc = ref("Here's a list of all my great notex")
 useHead({
-  title: "All articles",
+  title: title,
   meta: [{ name: "description", content: "Here's a list of all my great articles" }],
 });
 </script>
@@ -12,9 +14,8 @@ useHead({
     <div class="content-container">
       <header class="page-heading">
         <div class="wrapper">
-          <h1 class="text-5xl font-extrabold">Notes</h1>
-          <p class="font-medium text-lg">Notes include random thoughts and the odd UX and front end dev article. Check
-            out my Mixtapes section for uninterrupted DJ sets.</p>
+          <h1>{{ title }}</h1>
+          <p class="font-medium text-lg">{{ desc }}</p>
         </div>
       </header>
       <section class="posts ">
