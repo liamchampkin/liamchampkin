@@ -22,7 +22,7 @@ So here it is... a website built on Nuxt 3, an application framework that has [j
 
 ## Out with the old
 
-My last site was built in Jekyll and while that was a nice learning experience, I found the time it took to build the site too slow. It was on an older version of Jekyll and I'm sure it has improved now. It was also primarily a portfolio rather than a blog. The sites it showcased are mostly offline and a few years old now. I'm yet to decide if I want to showcase my current side projects.
+My last site was built in [Jekyll](https://jekyllrb.com/) and while that was a nice learning experience, I found the time it took to build the site too slow. It was on an older version of Jekyll and I'm sure it has improved now. It was also primarily a portfolio rather than a blog. The sites it showcased are now mostly offline and a few years old now. I'm yet to decide if I want to showcase my current side projects.
 
 ## Next steps
 

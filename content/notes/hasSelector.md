@@ -22,7 +22,7 @@ You originally wanted...
 ```
 
 
-but the CMS forces you to have
+but the CMS forces you to have...
 
 
 ```html

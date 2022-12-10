@@ -95,6 +95,10 @@
       align-items: center;
       color: white;
       padding: var(--space-m);
+
+      h2 {
+        margin-bottom: 0;
+      }
     }
   }
 }

@@ -9,7 +9,7 @@ category: UX article
 tags: zwift, fitness
 color: rgb(114 239 97 / 69%)
 description: |
-  Zwift recently underwent it’s biggest UI change since it launched in 2017.  As an avid user of Zwift I thought I would discuss how it has affected me and what changes the Zwift HQ could make to improve the experience.
+  Just as summer is kicking in over here in the UK I thought I'd jump on the decks and put together a live mix containing lots of tracks I've been enjoying over the past couple of months.
 
 ---
 Just as summer is kicking in over here in the UK I thought I'd jump on the decks and put together a live mix containing lots of tracks I've been enjoying over the past couple of months. Tracks and remixes by Powel, Petar Dundov, Buda Kid and Tom Demac. A bit of a bouncy melodic mix this one. Enjoy.
