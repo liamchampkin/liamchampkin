@@ -23,6 +23,7 @@
     </div>
     <div class="nightshine"></div>
   </main>
+  <Footer />
 </template>
 
 <style scoped>

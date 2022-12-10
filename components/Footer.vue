@@ -96,6 +96,8 @@ nav {
 
 }
 
+
+
 @media only screen and (max-width: 800px) {
   footer {
     height: auto;
@@ -116,6 +118,7 @@ nav {
 
   nav ul {
     display: block;
+    padding: 0;
 
     li {
       display: block;

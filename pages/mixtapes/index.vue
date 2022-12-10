@@ -9,6 +9,7 @@ useHead({
 });
 </script>
 <template>
+
   <Header />
   <main>
     <div class="content-container">
@@ -60,6 +61,8 @@ useHead({
     </div>
     <div class="nightshine"></div>
   </main>
+  <Footer />
+
 </template>
 <style scoped>
 /* ... */

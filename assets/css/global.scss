@@ -3,9 +3,27 @@
   margin: 0;
 }
 
+html,
+body,
+#__nuxt {
+  //sets all wrapper parents to 100% to allow the footer to stick to the bottom using CSS grid
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+
 body {
   background-color: #0e172a;
 }
+
+
 
 .logo {
   span {
@@ -20,7 +38,9 @@ body {
   gap: var(--space-m);
 }
 
-main {}
+main {
+  position: relative;
+}
 
 .content-container {
   max-width: 1400px;
