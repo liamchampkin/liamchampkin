@@ -18,7 +18,7 @@ Usually when I decide to re-design my website I'll try and learn a new language 
 
 Although this is a great way to learn, and I've learnt a hell of a lot of Vue within the last 18 months, I feel I've been doing it the wrong way round. What I should be doing is getting a bare minimum website out the door in a framework/cms I want to learn and publish it. Then go about adding new features and learning how the thing works.
 
-So here it is... a website built on Nuxt 3, an application framework that has [just released its third iteration](https://nuxt.com/v3).
+So here it is... a website built on Nuxt 3 (Vue), an application framework [which recently launched its third iteration](https://nuxt.com/v3).
 
 ## Out with the old
 

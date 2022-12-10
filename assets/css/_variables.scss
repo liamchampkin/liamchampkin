@@ -6,14 +6,32 @@
   --size-m: 16px;
   --size-s: 12px;
   --size-xs: 10px;
-  --space-xs: 10px;
-  --space-s: 16px;
-  --space-m: 27px;
-  --space-l: 40px;
-  --space-xl: 60px;
   --space-xxl: 80px;
+  --space-xl: 60px;
+  --space-l: 40px;
+  --space-m: 27px;
+  --space-s: 16px;
+  --space-xs: 10px;
 
   //colours
   --primary-accent: hotpink;
   --secondary-accent: #00bdff;
+}
+
+@media only screen and (max-width: 800px) {
+  :root {
+    --size-xxxl: 55px;
+    --size-xxl: 45px;
+    --size-xl: 25px;
+    --size-l: 18px;
+    --size-m: 16px;
+    --size-s: 12px;
+    --size-xs: 8px;
+    --space-xxl: 60px;
+    --space-xl: 40px;
+    --space-l: 27px;
+    --space-m: 16px;
+    --space-s: 10px;
+    --space-xs: 6px;
+  }
 }
