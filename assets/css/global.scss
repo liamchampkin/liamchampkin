@@ -20,9 +20,7 @@ body {
   gap: var(--space-m);
 }
 
-main {
-
-}
+main {}
 
 .content-container {
   max-width: 1400px;
@@ -37,12 +35,20 @@ main {
 }
 
 .nightshine {
-    background: linear-gradient(45deg, rgb(54 12 32) 0%, #791949 50%, #0077ff 100%);
-    opacity: 0.5;
-    filter: blur(30vh);
-    height: 60vh;
-    bottom: -40vh;
-    width: 100%;
-    position: fixed;
-    z-index: -2;
+  background: linear-gradient(45deg, rgb(54 12 32) 0%, #791949 50%, #0077ff 100%);
+  opacity: 0.5;
+  filter: blur(30vh);
+  height: 60vh;
+  bottom: -40vh;
+  width: 100%;
+  position: fixed;
+  z-index: -2;
+}
+
+@media only screen and (max-width: 800px) {
+  .content-container {
+
+    padding: 0 var(--space-s);
+
+  }
 }
