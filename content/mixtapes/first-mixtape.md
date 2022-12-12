@@ -4,7 +4,7 @@ card_image: jess-outside-two.jpg
 card_image_alt: People sitting in the sun outside a coffee shop
 type: post
 id: 'zwift'
-date: 2022-08-06
+date: 2021-05-05
 category: UX article
 tags: zwift, fitness
 color: rgb(114 239 97 / 69%)

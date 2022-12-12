@@ -11,7 +11,7 @@
               <img class="liam-champkin" src="~/assets/images/me.png"
                 alt="A profile picture of Liam wearing a silly hat">
               <h1>{{ doc.title }}</h1>
-
+              <p>{{ formatDate(doc.date) }}</p>
               <!-- <p>{{ doc.date }}</p> -->
             </div>
             <div class="article-content">
@@ -25,6 +25,21 @@
   </main>
   <Footer />
 </template>
+
+<script>
+export default {
+  methods: {
+    formatDate(date) {
+      // format the date to be displayed in a readable format
+      return new Date(date).toLocaleDateString('en-GB', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+    },
+  },
+}
+</script>
 
 <style scoped>
 .liam-champkin {
