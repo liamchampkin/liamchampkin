@@ -5,7 +5,7 @@ card_image_alt: People sitting in the sun outside a coffee shop
 type: post
 id: 'newWebsite'
 date: 2022-12-09
-category: UX article
+category: Portfolio
 tags: zwift, fitness
 color: rgb(0 0 0)
 description: |

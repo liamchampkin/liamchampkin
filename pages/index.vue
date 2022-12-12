@@ -7,8 +7,9 @@
 
       <section class="hero-section grid-12">
 
-
-        <img class="liam-champkin" src="~/assets/images/me.png" alt="A profile picture of Liam wearing a silly hat">
+        <div class="passport-image-container">
+          <img class="liam-champkin" src="~/assets/images/me.png" alt="A profile picture of Liam wearing a silly hat">
+        </div>
         <div class="text">
           <h1 class="">UX <span class="highlight-one">/</span> UI developer specialising in design systems and
             accessibility
@@ -58,15 +59,21 @@ useHead({
 .liam-champkin {
   opacity: 1;
   border-radius: 100%;
-  height: 300px;
-  width: 300px;
+  aspect-ratio: 1 / 1;
+  max-width: calc(100% - var(--space-l));
   object-fit: cover;
   border: 6px double #00bdff;
   padding: 6px;
   z-index: 1;
   position: relative;
-  grid-column: 2 / 4;
+  box-sizing: border-box;
   box-shadow: 3px 4px 8px #00000047;
+}
+
+.passport-image-container {
+  display: flex;
+  align-items: center;
+  grid-column: 2 / 5;
 
 }
 
@@ -77,12 +84,14 @@ useHead({
     z-index: 2;
   }
 
-  .liam-champkin {
-    height: 100px;
-    width: 100px;
-    margin-bottom: var(--space-l);
+  .passport-image-container {
     grid-column: 1 / 13;
 
+  }
+
+  .liam-champkin {
+    height: 150px;
+    width: 150px;
 
   }
 }
