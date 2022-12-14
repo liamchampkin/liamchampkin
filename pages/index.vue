@@ -46,7 +46,7 @@ useHead({
 .squiggle {
   text-decoration: underline;
   text-decoration-style: wavy;
-  text-decoration-color: hotpink;
+  text-decoration-color: var(--primary-accent);
 
 }
 
@@ -60,7 +60,7 @@ useHead({
   opacity: 1;
   border-radius: 100%;
   aspect-ratio: 1 / 1;
-  max-width: calc(100% - var(--space-l));
+  max-width: 100%;
   object-fit: cover;
   border: 6px double #00bdff;
   padding: 6px;

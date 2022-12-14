@@ -3,6 +3,9 @@
 // set meta for page
 const title = ref('Mixtapes')
 const desc = ref("")
+const articles = await queryContent('articles')
+  .sort({ date: 1 })
+  .find()
 useHead({
   title: title,
   meta: [{ name: "description", content: "Here's a list of all my great articles" }],
@@ -23,7 +26,7 @@ useHead({
         <!-- Render list of all articles in ./content/blog using `path` -->
         <!-- Provide only defined fields in the `:query` prop -->
         <ContentList path="/mixtape" :query="{
-          only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color'],
+          only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color', 'date'],
           where: {
         
           },

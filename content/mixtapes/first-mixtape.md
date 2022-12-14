@@ -1,12 +1,10 @@
 ---
 title: Spring 2021 mixtape
-card_image: jess-outside-two.jpg
-card_image_alt: People sitting in the sun outside a coffee shop
 type: post
-id: 'zwift'
-date: 2021-05-05
+id: 'spring21mixtape'
+date: 2021-06-07
 category: UX article
-tags: zwift, fitness
+tags: techno, melodic
 color: rgb(114 239 97 / 69%)
 description: |
   Just as summer is kicking in over here in the UK I thought I'd jump on the decks and put together a live mix containing lots of tracks I've been enjoying over the past couple of months.
