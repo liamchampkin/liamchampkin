@@ -1,11 +1,11 @@
 
-<script setup>
+<script setup lang="ts">
 // set meta for page
+import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 const title = ref('Mixtapes')
 const desc = ref("")
-const articles = await queryContent('articles')
-  .sort({ date: 1 })
-  .find()
+const query: QueryBuilderParams = { path: '/mixtape', limit: 2, sort: { date: -1 }, only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color', 'date'], $sensitivity: 'base', }
+
 useHead({
   title: title,
   meta: [{ name: "description", content: "Here's a list of all my great articles" }],
@@ -25,13 +25,7 @@ useHead({
       <section class="posts ">
         <!-- Render list of all articles in ./content/blog using `path` -->
         <!-- Provide only defined fields in the `:query` prop -->
-        <ContentList path="/mixtape" :query="{
-          only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color', 'date'],
-          where: {
-        
-          },
-          $sensitivity: 'base',
-        }">
+        <ContentList :query="query">
           <!-- Default list slot -->
           <template v-slot="{ list }">
             <ul class="article-list grid-12">
