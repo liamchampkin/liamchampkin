@@ -10,7 +10,7 @@ color: hsl(181deg 44% 38%)
 
 A 12 column CSS grid starts at 1 and ends at 13 and that has always tripped me up when writing CSS until I searched online to try and understand why.
 
-So a 12 column grid would have 13 lines starting at one.
+So a 12 column grid has 13 lines starting at one.
 
 e.g. To make an element span across all 12 grid columns you'd have to specify the start line and end very last line...
 
