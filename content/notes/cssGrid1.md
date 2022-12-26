@@ -8,7 +8,7 @@ tags: css
 color: hsl(181deg 44% 38%)
 ---
 
-A 12 column CSS grid starts at 1 and ends at 13 and that has always tripped me up when writing CSS until I searched online to try and understand why.
+A 12 column CSS grid starts at 1 and ends at 13 and this has always tripped me up when writing CSS until I searched online to try and understand why.
 
 So a 12 column grid has 13 lines starting at one.
 
