@@ -4,7 +4,7 @@
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 const title = ref('Mixtapes')
 const desc = ref("")
-const query: QueryBuilderParams = { path: '/mixtape', limit: 2, sort: { date: -1 }, only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color', 'date'], $sensitivity: 'base', }
+const query: QueryBuilderParams = { path: '/mixtape', limit: 10, sort: { date: -1 }, only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color', 'date'], $sensitivity: 'base', }
 
 useHead({
   title: title,
