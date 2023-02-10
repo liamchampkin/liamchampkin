@@ -47,7 +47,7 @@ header {
   header {
     &:before {
       content: "";
-      position: absolute;
+      position: static;
       width: 100%;
       /* right: -12px; */
       top: -10px;
