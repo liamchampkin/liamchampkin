@@ -1,14 +1,18 @@
-<!-- ./pages/blog/index.vue -->
-<script setup>
+
+<script setup lang="ts">
+// set meta for page
+import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 const title = ref('Notes')
 const desc = ref("")
-// set meta for page
+const query: QueryBuilderParams = { path: '/notes', limit: 10, sort: { date: -1 }, only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color', 'date'], $sensitivity: 'base', }
+
 useHead({
   title: title,
-  meta: [{ name: "description", content: desc }],
+  meta: [{ name: "description", content: "Here's a list of all my great articles" }],
 });
 </script>
 <template>
+
   <Header />
   <main>
     <div class="content-container">
@@ -21,10 +25,7 @@ useHead({
       <section class="posts ">
         <!-- Render list of all articles in ./content/blog using `path` -->
         <!-- Provide only defined fields in the `:query` prop -->
-        <ContentList path="/notes" :query="{
-          only: ['title', 'description', 'tags', '_path', 'img', 'category', 'color'],
-          $sensitivity: 'base',
-        }">
+        <ContentList :query="query">
           <!-- Default list slot -->
           <template v-slot="{ list }">
             <ul class="article-list grid-12">
@@ -58,6 +59,7 @@ useHead({
     <div class="nightshine"></div>
   </main>
   <Footer />
+
 </template>
 <style scoped>
 /* ... */
