@@ -10,6 +10,9 @@ color: hsl(119deg 66% 21% / 26%)
 
 All the music I've enjoyed throughout 2023. I'll add to this list as the year goes on.
 
+## Voyage de Lux with Alex Downey - 25.01.2023 (mixtape)
+Two hours of really nice techno and acid from Alex Downey. I always enjoy his sets
+
 ## Powel - Playing music to a wall 4 (mixtape)
 Laid back deep house from German DJ/Producer Powel
 
