@@ -15,6 +15,11 @@ Two hours of really nice techno and acid from Alex Downey.
 
 https://soundcloud.com/1btn/voyage-de-lux-with-alex-downey-25012023
 
+## Arctic Monkeys - The Car (album)
+One of the best bands of all time in my opinion.
+
+https://open.spotify.com/album/2GROf0WKoP5Er2M9RXVNNs?si=YbpSpywoQh69-yrofyBacg
+
 ## Powel - Playing music to a wall 4 (mixtape)
 Laid back deep house from German DJ/Producer Powel.
 
@@ -22,6 +27,6 @@ https://soundcloud.com/powel/playing-music-to-a-wall-4
 
 
 ## Jon Gurd Mixtape - Autumn 2022 (mixtape)
-Lots of different electronic styles featured in this mixtape from Jon Gurd.
+Lots of different electronic styles featured in this mixtape from Jon Gurd. Some of the selections are a bit on the cheesey side but good to hear something a bit different.
 
 https://soundcloud.com/jon-gurd/jon-gurd-mixtape-autumn-2022
