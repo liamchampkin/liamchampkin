@@ -11,15 +11,17 @@ color: hsl(119deg 66% 21% / 26%)
 All the music I've enjoyed throughout 2023. I'll add to this list as the year goes on.
 
 ## Voyage de Lux with Alex Downey - 25.01.2023 (mixtape)
-Two hours of really nice techno and acid from Alex Downey. I always enjoy his sets
+Two hours of really nice techno and acid from Alex Downey.
+
+https://soundcloud.com/1btn/voyage-de-lux-with-alex-downey-25012023
 
 ## Powel - Playing music to a wall 4 (mixtape)
-Laid back deep house from German DJ/Producer Powel
+Laid back deep house from German DJ/Producer Powel.
 
 https://soundcloud.com/powel/playing-music-to-a-wall-4
 
 
 ## Jon Gurd Mixtape - Autumn 2022 (mixtape)
-Lots of different electronic styles featured in this mixtape from Jon Gurd
+Lots of different electronic styles featured in this mixtape from Jon Gurd.
 
 https://soundcloud.com/jon-gurd/jon-gurd-mixtape-autumn-2022
