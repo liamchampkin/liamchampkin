@@ -50,10 +50,11 @@
     margin-bottom: var(--space-m);
     border-radius: 15px;
     position: relative;
-    width: 100%;
+    font-family: SpaceGrotesk, sans-serif;
     display: flex;
     margin-left: var(--space-xl);
     border: 1px solid;
+    max-width: 80ch;
 
     &::before {
       content: '"';

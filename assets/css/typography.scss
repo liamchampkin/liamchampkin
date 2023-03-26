@@ -13,12 +13,19 @@
   src: url(~/assets/fonts/Poppins-Bold.ttf);
 }
 
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(~/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+
+
 body {}
 
 p,
 li,
 .logo {
-  font-family: PoppinsLight, sans-serif;
+  font-family: SpaceGrotesk, sans-serif;
   font-size: var(--size-m);
   line-height: 1.8;
   color: var(--text-color);
@@ -28,7 +35,7 @@ li,
 
 article p {
   margin-bottom: var(--space-m);
-  font-size: var(--size-m);
+  font-size: var(--size-l);
   line-height: 1.8;
 }
 
@@ -44,7 +51,7 @@ article code {
 
 h1 {
   color: white;
-  font-family: PoppinsBold, sans-serif;
+  font-family: SpaceGrotesk, sans-serif;
   font-size: var(--size-xxl);
   max-width: 900px;
   margin-bottom: var(--space-s);
@@ -54,7 +61,7 @@ h1 {
 
 h2 {
   color: white;
-  font-family: PoppinsRegular, sans-serif;
+  font-family: SpaceGrotesk, sans-serif;
   font-size: var(--size-xl);
   max-width: 900px;
   margin-bottom: var(--space-s);
