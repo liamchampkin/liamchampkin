@@ -40,8 +40,10 @@
   }
 
   p:first-of-type:not(blockquote p) {
-    font-size: 140%;
+    font-size: 150%;
     line-height: 1.5;
+    font-weight: 400;
+    max-width: 800px;
   }
 
   blockquote {
@@ -50,7 +52,7 @@
     margin-bottom: var(--space-m);
     border-radius: 15px;
     position: relative;
-    font-family: SpaceGrotesk, sans-serif;
+    font-family: Outfit, sans-serif;
     display: flex;
     margin-left: var(--space-xl);
     border: 1px solid;

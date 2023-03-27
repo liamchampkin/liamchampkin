@@ -18,6 +18,11 @@
   src: url(~/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: Outfit;
+  src: url(~/assets/fonts/Outfit-VariableFont_wght.ttf);
+}
+
 
 
 body {}
@@ -25,18 +30,19 @@ body {}
 p,
 li,
 .logo {
-  font-family: SpaceGrotesk, sans-serif;
-  font-size: var(--size-m);
-  line-height: 1.8;
+  font-family: Outfit, sans-serif;
+  font-size: var(--size-l);
+  line-height: 1.6;
   color: var(--text-color);
   max-width: 700px;
+  font-weight: 200;
 
 }
 
 article p {
   margin-bottom: var(--space-m);
   font-size: var(--size-l);
-  line-height: 1.8;
+
 }
 
 article code {
@@ -51,22 +57,22 @@ article code {
 
 h1 {
   color: white;
-  font-family: SpaceGrotesk, sans-serif;
+  font-family: Outfit, sans-serif;
   font-size: var(--size-xxl);
   max-width: 900px;
   margin-bottom: var(--space-s);
   line-height: 1.2;
-  letter-spacing: -2px;
+  font-weight: 400;
 }
 
 h2 {
   color: white;
-  font-family: SpaceGrotesk, sans-serif;
+  font-family: Outfit, sans-serif;
   font-size: var(--size-xl);
   max-width: 900px;
   margin-bottom: var(--space-s);
   line-height: 1.2;
-  letter-spacing: -1px;
+  font-weight: 300;
 
   a {
     text-decoration: none;
