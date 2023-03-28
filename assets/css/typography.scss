@@ -34,15 +34,17 @@ li,
   font-size: var(--size-l);
   line-height: 1.6;
   color: var(--text-color);
-  max-width: 700px;
-  font-weight: 200;
 
+  font-weight: 200;
 }
 
 article p {
   margin-bottom: var(--space-m);
   font-size: var(--size-l);
+}
 
+.article-content p {
+  max-width: 700px;
 }
 
 article code {

@@ -12,7 +12,7 @@
                 <img class="liam-champkin" src="~/assets/images/me.png"
                   alt="A profile picture of Liam wearing a silly hat">
                 <h1>{{ doc.title }}</h1>
-                <p>{{ formatDate(doc.date) }}</p>
+                <p class="date">{{ formatDate(doc.date) }}</p>
 
               </header>
               <!-- <p>{{ doc.date }}</p> -->
