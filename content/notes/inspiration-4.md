@@ -7,7 +7,7 @@ category: Inspiration
 color: hsla(267, 38%, 45%, 0.26)
 ---
 
-A collection of articles and websites I've found interesting over the last few weeks. Quite a bit a bit of accessibility and ChatGPT in this one...
+Here's a collection of articles and websites I've found interesting over the last few weeks. Quite a bit a bit of accessibility and ChatGPT in this one...
 
 ## Workplace meetings
 Interesting Twitter thread on workplace meetings. Inclusivity in the workplace can lead to managers inviting more people than necessary to meetings, which could potentially impact the quality of outcomes.
