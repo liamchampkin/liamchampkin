@@ -10,7 +10,7 @@ color: hsla(267, 38%, 45%, 0.26)
 Here's a collection of articles and websites I've found interesting over the last few weeks. Quite a bit a bit of accessibility and ChatGPT in this one...
 
 ## Workplace meetings
-Interesting Twitter thread on workplace meetings. Inclusivity in the workplace can lead to managers inviting more people than necessary to meetings, which could potentially impact the quality of outcomes.
+An interesting Twitter thread on workplace meetings. Andy Budd has the opinion that inclusivity in the workplace can lead to managers inviting more people than necessary to meetings, which could potentially impact the quality of outcomes.
 https://twitter.com/andybudd/status/1614584319007424512
 
 ## VS Code trick
