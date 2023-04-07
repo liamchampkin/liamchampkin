@@ -9,7 +9,7 @@
           <article class="article article-post">
             <div class="article-meta" :style="{ 'background-color': doc.color }">
               <header>
-                <img class="liam-champkin" src="~/assets/images/me.png"
+                <img class="liam-champkin" src="~/assets/images/profile-2.jpg"
                   alt="A profile picture of Liam wearing a silly hat">
                 <h1>{{ doc.title }}</h1>
                 <p class="date">{{ formatDate(doc.date) }}</p>

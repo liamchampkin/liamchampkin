@@ -8,7 +8,8 @@
       <section class="hero-section grid-12">
 
         <div class="passport-image-container">
-          <img class="liam-champkin" src="~/assets/images/me.png" alt="A profile picture of Liam wearing a silly hat">
+          <img class="liam-champkin" src="~/assets/images/profile-2.jpg"
+            alt="A profile picture of Liam wearing a silly hat">
         </div>
         <div class="text">
           <h1 class="">UX <span class="highlight-one">/</span> UI developer specialising in design systems and
