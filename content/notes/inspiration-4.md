@@ -17,7 +17,7 @@ https://twitter.com/andybudd/status/1614584319007424512
 The VSCode editor was developed using JavaScript. If you modify the URL of your GitHub repository by replacing ".com" with ".dev", you can utilize the integrated VSCode to edit and commit your code. https://twitter.com/snowinglater/status/1612500388233502720
 
 ## Leonie Watson on Accessibility
-Leonie Watson highlights the innovative ways in which technology is facilitating accessibility and emphasizes the urgency to raise awareness and enhance education on the subject.
+Leonie Watson highlights the innovative ways in which technology is facilitating accessibility and emphasises the urgency to raise awareness and enhance education on the subject.
 https://theinformed.life/2023/01/29/episode-106-leonie-watson-on-accessibility/
 
 ## ChatGPT and accessibility
