@@ -41,7 +41,7 @@ Ela Gorla discusses the trade-offs between using native versus custom components
 https://tetralogical.com/blog/2022/11/08/foundations-native-versus-custom-components/
 
 ## Taking notes
-I'm always curious to see how others structure and take notes. I've been using Obsidian for a few months now and I'm happy with the experience. This article discuss's the software's features and integrations that enhance productivity, such as its graph view, quick switcher, and plugin ecosystem.
+I'm always curious to see how others structure and take notes. I've been using Obsidian for a few months now and I'm happy with the experience. This article discusses the software's features and integrations that enhance productivity, such as its graph view, quick switcher, and plugin ecosystem.
 https://mutt0-ds.github.io/posts/2023/02/obsidian-productivity-second-brain/
 
 ## 12 Signs You’re Working in a Feature Factory
