@@ -45,5 +45,5 @@ I'm always curious to see how others structure and take notes. I've been using O
 https://mutt0-ds.github.io/posts/2023/02/obsidian-productivity-second-brain/
 
 ## 12 Signs You’re Working in a Feature Factory
-John Cutler article details twelve signs your team is focusing on producing more features, regardless of whether they are valuable to customers or not. These signs include a lack of a clear product vision, a culture of shipping new features frequently, and focusing on outputs rather than outcomes. The article suggests that to avoid being a feature factory, product teams need to prioritise outcomes over outputs and focus on delivering customer value.
+John Cutler's article details twelve signs your team is focusing on producing more features, regardless of whether they are valuable to customers or not. These signs include a lack of a clear product vision, a culture of shipping new features frequently, and focusing on outputs rather than outcomes. The article suggests that to avoid being a feature factory, product teams need to prioritise outcomes over outputs and focus on delivering customer value.
 https://amplitude.com/blog/12-signs-youre-working-in-a-feature-factory-3-years-later
