@@ -2,13 +2,25 @@
 title: Favourite music 2023 edition
 type: post
 id: 'music-2023'
-date: 2023-06-16
+date: 2023-08-31
 category: notes
 tags: music
 color: hsl(119deg 66% 21% / 26%)
 ---
 
 All the music I've enjoyed throughout 2023. I'll add to this list as the year goes on.
+
+## Radio Show with Powel
+
+The usual laid back house music goodness from Powel. Great working music.
+
+https://soundcloud.com/seven-villas-records/radio-show-with-powel-1
+
+## Reflections Presents: A Quiet Winter Walk by Jessie Marcella
+
+I often stick this on in the evenings when I need to wind down. Awesome selection by Marcella, featuring Nils Frahm, Ólafur Arnalds, Rival Consoles and a few from herself.
+
+https://soundcloud.com/anjunadeepreflections/reflections-presents-a-quiet-winter-walk-by-jessie-marcella
 
 ## Jon Gurd Mixtape - Spring 2023
 
