@@ -2,7 +2,7 @@
 title: Inspiration 5
 type: post
 id: 'inspiration-5'
-date: 2023-10-13
+date: 2023-12-02
 category: Inspiration
 color: hsla(0, 100%, 56.47%, 0.26)
 ---
