@@ -4,46 +4,74 @@ type: post
 id: 'inspiration-5'
 date: 2023-10-13
 category: Inspiration
-color: hsla(267, 38%, 45%, 0.26)
+color: hsla(0, 100%, 56.47%, 0.26)
 ---
 
-Here's a collection of articles and websites I've found interesting over the last few weeks. Quite a bit a bit of accessibility and ChatGPT in this one...
+Instead of posting links on websites that require a user account, I consolidate a variety of inspiring articles, interesting content, and general links to websites that interest me. This collection includes features on Black Mirror, design handoff, and the branding of the Natural History Museum.
 
-## Workplace meetings
-An interesting Twitter thread on workplace meetings. Andy Budd has the opinion that inclusivity in the workplace can lead to managers inviting more people than necessary to meetings, which could potentially impact the quality of outcomes.
-https://twitter.com/andybudd/status/1614584319007424512
+## Design handoff
 
-## VS Code trick
-The VSCode editor was developed using JavaScript. If you modify the URL of your GitHub repository by replacing ".com" with ".dev", you can utilise the integrated VSCode to edit and commit your code. https://twitter.com/snowinglater/status/1612500388233502720
+This article articulates some of the reasons for overlapping design with development and why there should be no handoff.
 
-## Leonie Watson on Accessibility
-Leonie Watson highlights the innovative ways in which technology is facilitating accessibility and emphasises the urgency to raise awareness and enhance education on the subject.
-https://theinformed.life/2023/01/29/episode-106-leonie-watson-on-accessibility/
-
-## ChatGPT and accessibility
-This article explores the limitations and potential harms of relying solely on AI for web accessibility. The author argues that while AI can provide some benefits, it cannot replace the need for manual testing and human judgement.
-https://www.scottohara.me//blog/2023/01/31/ai-a11y-maybe-no.html
-
-## Beautiful website
-Beautiful website https://hle.io. Like most artistic websites there isn't much in the way of accessible functionality but a great looking website nonetheless.
-
-## Rethinking the modern web
-Oxford Harrison proposes a back-to-basics approach that focuses on HTML, CSS, and server-side rendering to create fast, accessible, and easy-to-use web applications. He also suggests incorporating accessibility and inclusivity considerations from the outset of the design process to create a more user-friendly web.
-https://dev.to/oxharris/rethinking-the-modern-web-5cn1
+![Sram offices](/img/inspiration-5/fluid-design-handoff-model.avif)
 
 
-## Visual design rules you can safely follow every time
-Sent to me by a colleague. An article full of great design pointers.
-https://anthonyhobday.com/sideprojects/saferules/
+>Many companies choose the route of extensive design documentation almost to the last pixel. This isn’t enough though. Design decisions have to be informed by technical implementations and its limitations
 
-## Native versus custom components
-Ela Gorla discusses the trade-offs between using native versus custom components when building applications. She describes that using native components and browser's standard features is the easiest and most accessible solution.
-https://tetralogical.com/blog/2022/11/08/foundations-native-versus-custom-components/
+https://smart-interface-design-patterns.com/articles/design-handoff/
 
-## Taking notes
-I'm always curious to see how others structure and take notes. I've been using Obsidian for a few months now and I'm happy with the experience. This article discusses the software features and integrations that enhance productivity, such as its graph view, quick switcher, and plugin ecosystem.
-https://mutt0-ds.github.io/posts/2023/02/obsidian-productivity-second-brain/
+## Accessibility and Design Systems: The Deep-Dive Q&A
 
-## 12 Signs You’re Working in a Feature Factory
-John Cutler's article details twelve signs your team is focusing on producing more features, regardless of whether they are valuable to customers or not. These signs include a lack of a clear product vision, a culture of shipping new features frequently, and focusing on outputs rather than outcomes. The article suggests that to avoid being a feature factory, product teams need to prioritise outcomes over outputs and focus on delivering customer value.
-https://amplitude.com/blog/12-signs-youre-working-in-a-feature-factory-3-years-later
+Interesting Q&A session on design systems and accessibility…
+
+>If design and engineering are really in sync, then the product and users benefit.
+
+https://www.supernova.io/blog/accessibility-and-design-systems-the-deep-dive-q-and-a
+
+## SVG currentColor
+
+I tend not to apply colour inline within the svg anymore, instead I’ll just apply the colour to the containing div or let it inherit the colour automatically. Gone are the days when you would create a sprite with all the different svg variants. This article explains how it’s done.
+
+https://gomakethings.com/currentcolor-and-svgs/
+
+## Solving the CSS layout and source order disconnect
+Have you ever wondered if changing the source order using CSS affects accessibility, well the CSS boys are on it…
+
+https://developer.chrome.com/blog/reading-order/
+
+## The Math Behind Nesting Rounded Corners
+
+Paul Hebert creates some useful CSS custom properties for nesting rounded corners. If you are like me and design in code you might find this article useful.
+
+https://cloudfour.com/thinks/the-math-behind-nesting-rounded-corners/
+
+## The Media Show: Charlie Brooker on Black Mirror, the threat of AI and avoiding the news
+
+Black Mirror has been scaring me with AI related stories for some time now but one recent episode 'Joan is Awful' has been scaring film stars into striking.
+
+![Charlie Brooker interview](/img/inspiration-5/black-mirror.jpeg)
+
+>“I love the BBC for instance, and I owe a lot to the BBC. I hope the license fee stays but it's easy for me to say that.”
+
+https://www.bbc.co.uk/programmes/articles/CNLWntkszFkyxzxc7xl0CR/the-media-show-charlie-brooker-on-black-mirror-the-threat-of-ai-and-avoiding-the-news
+
+## No Handoff: close the gap between product and engineering
+
+I'm not a fan of the waterfall process or fake agile (mini waterfalls) when building large digital products that (should) evolve over time. Siloed teams may work for print or small one-off projects.
+
+>Ahh… Project handoff. That universally hated period of inefficiency and frustration, throwing your work over the fence hoping there is someone on the other side to catch it.
+
+https://nohandoff.org/no-handoff-between-product-and-engineering/
+
+## Natural History Museum branding
+
+Tasty branding for the Natural History Museum but will it stand the test of time...
+
+![Natural history branding on the side of a red double decker bus in London ](/img/inspiration-5/natural-history.avif)
+
+https://www.pentagram.com/work/natural-history-museum
+
+## Should you be coding your prototypes?
+
+Is Figma enough or should you really be coding your prototypes?
+https://adactio.com/journal/20386
