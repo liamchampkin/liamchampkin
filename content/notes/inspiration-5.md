@@ -7,7 +7,7 @@ category: Inspiration
 color: hsla(0, 100%, 56.47%, 0.26)
 ---
 
-Here's a variety of inspiring articles, interesting content, and general links to websites that have interested me over the last couple of months. This collection includes features on Black Mirror, design handoff, and the branding of the Natural History Museum.
+Here's a variety of inspiring articles, interesting content, and general links to websites that have interested me over the last couple of months. This collection includes features on Black Mirror, design handoff, and Natural History Museum branding.
 
 ## Design handoff
 
