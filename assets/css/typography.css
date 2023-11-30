@@ -2,31 +2,22 @@
   font-family: PoppinsLight;
   src: url(~/assets/fonts/Poppins-Light.ttf);
 }
-
 @font-face {
   font-family: PoppinsRegular;
   src: url(~/assets/fonts/Poppins-Regular.ttf);
 }
-
 @font-face {
   font-family: PoppinsBold;
   src: url(~/assets/fonts/Poppins-Bold.ttf);
 }
-
 @font-face {
   font-family: SpaceGrotesk;
   src: url(~/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
 }
-
 @font-face {
   font-family: Outfit;
   src: url(~/assets/fonts/Outfit-VariableFont_wght.ttf);
 }
-
-
-
-body {}
-
 p,
 li,
 .logo {
@@ -34,7 +25,6 @@ li,
   font-size: var(--size-l);
   line-height: 1.6;
   color: var(--text-color);
-
   font-weight: 200;
 }
 
@@ -74,29 +64,25 @@ h2 {
   margin-bottom: var(--space-s);
   line-height: 1.2;
   font-weight: 300;
-
-  a {
-    text-decoration: none;
-  }
+}
+h2 a {
+  text-decoration: none;
 }
 
 a {
-  text-decoration-skip-ink: 2px;
+  -webkit-text-decoration-skip-ink: 2px;
+          text-decoration-skip-ink: 2px;
   color: inherit;
-  text-decoration-color: var(--primary-accent);
+  -webkit-text-decoration-color: var(--primary-accent);
+          text-decoration-color: var(--primary-accent);
   transition: all 0.2s ease-in-out;
   text-underline-offset: 3px;
-
-  &:focus-visible {
-    background-color: rgba(255, 105, 180, 0.26);
-    border-bottom: 3px solid var(--primary-accent);
-    text-decoration: none;
-  }
-
-  &:hover {}
-
 }
-
+a:focus-visible {
+  background-color: rgba(255, 105, 180, 0.26);
+  border-bottom: 3px solid var(--primary-accent);
+  text-decoration: none;
+}
 ul,
 ol {
   padding-left: var(--space-xl);
@@ -104,13 +90,10 @@ ol {
 
 @media only screen and (max-width: 800px) {
   h1 {
-
     font-size: var(--size-xl);
-
   }
-
   p,
-  li {
+li {
     font-size: var(--size-m);
     line-height: 1.4;
   }
