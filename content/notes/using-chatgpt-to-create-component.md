@@ -16,7 +16,7 @@ color: hsl(141.51deg 36.03% 27.26%)
 
 ---
 
-I needed to work quickly to get a component built in Vue and add it to a design system. I usually enjoy figuring it out for myself but to meet the deadline I thought it was a good opportunity to see how ChatGPT would handle it.
+I had to work quickly to get a component built in Vue and add it to a design system. I usually enjoy figuring it out for myself but to meet the deadline I thought it was a good opportunity to see how ChatGPT would handle it.
 
 > could you show me the code to add a class to a div when clicked within vue?
 
