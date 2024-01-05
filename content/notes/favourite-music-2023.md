@@ -2,13 +2,25 @@
 title: Favourite music 2023 edition
 type: post
 id: 'music-2023'
-date: 2023-08-31
+date: 2023-12-15
 category: notes
 tags: music
 color: hsl(119deg 66% 21% / 26%)
 ---
 
 All the music I've enjoyed throughout 2023. I'll add to this list as the year goes on.
+
+## Transitions with John Digweed and D. Diggler
+
+The usual quality from John Digweed but the last hour introduced me to D. Diggler who lines up a few tracks from his latest album Heroes, Pt. 1.
+
+https://www.mixcloud.com/johndigweed/transitions-with-john-digweed-and-d-diggler/ (from 1:00:00)
+
+## Parra For Cuva (live) - Mayan Warrior - Burning Man 2022
+
+I was introduced to Parra for Cuva by a colleague. The Berlin producers style is very laid back and melodic. He has brought out two great albums in the last few years which seem to be impossible to get hold of on CD.
+
+https://soundcloud.com/mayanwarriorofficial/parra-for-cuva-mayan-warrior-burning-man-2022
 
 ## Radio Show with Powel
 
@@ -39,7 +51,7 @@ https://soundcloud.com/ute-rec/ute-mix-series-69-dj-maria
 ## 100% Kessler Mix (BBC R1Xtra | Emerald)
 A couple of years old now but I still enjoy listening to this one. If you enjoy melodic breaks stick it on.
 
-https://soundcloud.com/kessleruk/kessler-bbcr1xtra-emerald
+https://soundcloud.com/kess1er/kessler-bbcr1xtra-emerald
 
 ## The Anjunadeep Edition 429 with James Grant
 I'm increasingly finding the Anjunadeep Edition a bit hit and miss but this one by James Grant hits the spot. Such a shame that the Anjunadeep guys have removed their podcast streams.
