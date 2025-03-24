@@ -16,10 +16,6 @@
                   src="~/assets/images/instagram.svg" /><span>Instagram</span></NuxtLink>
             </li>
             <li>
-              <NuxtLink to="https://twitter.com/liamchampkin"><img class="icon"
-                  src="~/assets/images/twitter.svg" /><span>Twitter</span></NuxtLink>
-            </li>
-            <li>
               <NuxtLink to="https://github.com/liamchampkin"><img class="icon"
                   src="~/assets/images/github.svg" /><span>Github</span></NuxtLink>
             </li>
