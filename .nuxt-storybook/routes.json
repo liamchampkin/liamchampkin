@@ -1,0 +1,114 @@
+[
+  {
+    "name": "About",
+    "path": "/About",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/About.vue",
+    "chunkName": "pages/About",
+    "_name": "_4881d364"
+  },
+  {
+    "name": "All",
+    "path": "/All",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/All.vue",
+    "chunkName": "pages/All",
+    "_name": "_99004ebc"
+  },
+  {
+    "name": "Articles",
+    "path": "/Articles",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Articles/index.vue",
+    "chunkName": "pages/Articles/index",
+    "_name": "_4523708f"
+  },
+  {
+    "name": "Asia",
+    "path": "/Asia",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Asia/index.vue",
+    "chunkName": "pages/Asia/index",
+    "_name": "_525cba5c"
+  },
+  {
+    "name": "Australia",
+    "path": "/Australia",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Australia/index.vue",
+    "chunkName": "pages/Australia/index",
+    "_name": "_69afe004"
+  },
+  {
+    "name": "Europe",
+    "path": "/Europe",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Europe/index.vue",
+    "chunkName": "pages/Europe/index",
+    "_name": "_a2c6e918"
+  },
+  {
+    "name": "MixTape",
+    "path": "/MixTape",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/MixTape/index.vue",
+    "chunkName": "pages/MixTape/index",
+    "_name": "_ba5c5e3c"
+  },
+  {
+    "name": "Notes",
+    "path": "/Notes",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Notes/index.vue",
+    "chunkName": "pages/Notes/index",
+    "_name": "_6c80e485"
+  },
+  {
+    "name": "Articles-slug",
+    "path": "/Articles/:slug",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Articles/_slug.vue",
+    "chunkName": "pages/Articles/_slug",
+    "_name": "_436ccf47"
+  },
+  {
+    "name": "Asia-slug",
+    "path": "/Asia/:slug",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Asia/_slug.vue",
+    "chunkName": "pages/Asia/_slug",
+    "_name": "_50a61914"
+  },
+  {
+    "name": "Australia-slug",
+    "path": "/Australia/:slug",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Australia/_slug.vue",
+    "chunkName": "pages/Australia/_slug",
+    "_name": "_67f93ebc"
+  },
+  {
+    "name": "Europe-slug",
+    "path": "/Europe/:slug",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Europe/_slug.vue",
+    "chunkName": "pages/Europe/_slug",
+    "_name": "_a6342ba8"
+  },
+  {
+    "name": "MixTape-slug",
+    "path": "/MixTape/:slug",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/MixTape/_slug.vue",
+    "chunkName": "pages/MixTape/_slug",
+    "_name": "_bdc9a0cc"
+  },
+  {
+    "name": "Notes-slug",
+    "path": "/Notes/:slug",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/Notes/_slug.vue",
+    "chunkName": "pages/Notes/_slug",
+    "_name": "_6aca433d"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_f7f65d9a"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/Users/liamsmith/projects/vue/liamchampkin/pages/_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_fb63a02a"
+  }
+]
