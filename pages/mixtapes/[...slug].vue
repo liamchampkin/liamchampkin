@@ -1,3 +1,21 @@
+<script setup lang="ts">
+const route = useRoute()
+const { data: doc } = await useAsyncData(route.path, () =>
+  queryCollection('mixtapes').path(route.path).first()
+)
+if (!doc.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Mixtape not found' })
+}
+
+function formatDate(date: string | Date) {
+  return new Date(date).toLocaleDateString('en-GB', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
+}
+</script>
+
 <template>
   <Header />
 
@@ -5,41 +23,23 @@
     <div class="content-container">
       <section class="grid-12">
 
-        <ContentDoc v-slot="{ doc }">
-          <article class="article article-post">
-            <div class="article-meta" :style="{ 'background-color': doc.color }">
-              <img class="liam-champkin" src="~/assets/images/profile-2.jpg"
-                alt="A profile picture of Liam wearing a silly hat">
-              <h1>{{ doc.title }}</h1>
-              <p>{{ formatDate(doc.date) }}</p>
-              <!-- <p>{{ doc.date }}</p> -->
-            </div>
-            <div class="article-content">
-              <ContentRenderer :value="doc" />
-            </div>
-          </article>
-        </ContentDoc>
+        <article class="article article-post">
+          <div class="article-meta" :style="{ 'background-color': doc.color }">
+            <img class="liam-champkin" src="~/assets/images/profile-2.jpg"
+              alt="A profile picture of Liam wearing a silly hat">
+            <h1>{{ doc.title }}</h1>
+            <p>{{ formatDate(doc.date) }}</p>
+          </div>
+          <div class="article-content">
+            <ContentRenderer :value="doc" />
+          </div>
+        </article>
       </section>
     </div>
     <div class="nightshine"></div>
   </main>
   <Footer />
 </template>
-
-<script>
-export default {
-  methods: {
-    formatDate(date) {
-      // format the date to be displayed in a readable format
-      return new Date(date).toLocaleDateString('en-GB', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      })
-    },
-  },
-}
-</script>
 
 <style scoped>
 .liam-champkin {

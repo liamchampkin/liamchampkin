@@ -1,5 +1,6 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2026-09-25',
     // Global page headers: https://go.nuxtjs.dev/config-head
   app: {
     head: {
@@ -22,16 +23,20 @@ export default defineNuxtConfig({
     },
   },
   content: {
-    highlight: {
-      // OR
-      theme: {
-        // Default theme (same as single string)
-        default: 'github-dark',
-        // Theme used if `html.dark`
-        dark: 'github-dark',
-        // Theme used if `html.sepia`
-        sepia: 'monokai',
-        light: 'github-light',
+    build: {
+      markdown: {
+        highlight: {
+          // OR
+          theme: {
+            // Default theme (same as single string)
+            default: 'github-dark',
+            // Theme used if `html.dark`
+            dark: 'github-dark',
+            // Theme used if `html.sepia`
+            sepia: 'monokai',
+            light: 'github-light',
+          }
+        }
       }
     }
   },
