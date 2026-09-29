@@ -55,15 +55,95 @@ main {
 }
 
 .nightshine {
-  background: linear-gradient(45deg, rgb(54, 12, 32) 0%, #791949 50%, #1f621f 75%, #07f 100%);
   opacity: 0.5;
-  filter: blur(30vh);
   height: 60vh;
-  bottom: -40vh;
-  width: 100%;
+  bottom: -44vh;
+  // wider than the viewport so the sideways drift never reveals an edge
+  width: 140%;
   position: fixed;
   z-index: -2;
-  left: 0;
+  left: -20%;
+  pointer-events: none;
+  transform-origin: bottom center;
+  // only transform + opacity are animated so each blur is rasterised once and composited on the GPU
+  will-change: transform, opacity;
+  animation:
+    aurora-drift 47s ease-in-out infinite alternate,
+    aurora-breathe 29s ease-in-out infinite alternate;
+
+  // two blurred palettes stacked; fading the top one in and out cycles the colours
+  // (the blur lives on each layer, not the parent, so the crossfade never re-blurs)
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    filter: blur(30vh);
+  }
+
+  &::before {
+    background: linear-gradient(45deg, rgb(54, 12, 32) 0%, #791949 50%, #1f621f 75%, #07f 100%);
+  }
+
+  &::after {
+    background: linear-gradient(45deg, #05a3dc 0%, #1f8a4c 40%, #5a2d91 75%, #c2185b 100%);
+    opacity: 0;
+    will-change: opacity;
+    animation: aurora-colour 37s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes aurora-drift {
+  0% {
+    transform: translateX(-8%) skewX(-6deg) scaleY(0.97);
+  }
+
+  35% {
+    transform: translateX(3%) skewX(4deg) scaleY(1.04);
+  }
+
+  65% {
+    transform: translateX(-2%) skewX(-2deg) scaleY(0.99);
+  }
+
+  100% {
+    transform: translateX(8%) skewX(6deg) scaleY(1.05);
+  }
+}
+
+@keyframes aurora-breathe {
+  0% {
+    opacity: 0.35;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0.45;
+  }
+}
+
+@keyframes aurora-colour {
+
+  0%,
+  15% {
+    opacity: 0;
+  }
+
+  85%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .nightshine,
+  .nightshine::after {
+    animation: none;
+  }
 }
 
 @media only screen and (max-width: 800px) {
