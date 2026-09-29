@@ -55,7 +55,8 @@ main {
 }
 
 .nightshine {
-  background: linear-gradient(45deg, rgb(54 12 32) 0%, #791949 50%, #0077ff 100%);
+  background: linear-gradient(45deg, rgb(54, 12, 32) 0%, #791949 50%, #1f621f 75%, #07f 100%);
+  ;
   opacity: 0.5;
   filter: blur(30vh);
   height: 60vh;
@@ -63,6 +64,7 @@ main {
   width: 100%;
   position: fixed;
   z-index: -2;
+  left: 0;
 }
 
 @media only screen and (max-width: 800px) {
