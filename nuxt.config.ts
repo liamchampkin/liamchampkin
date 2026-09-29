@@ -14,7 +14,9 @@ export default defineNuxtConfig({
 
       ],
       link: [
-        {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+        {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico', sizes: '32x32 48x48'},
+        {rel: 'icon', type: 'image/png', href: '/favicon.png'},
+        {rel: 'apple-touch-icon', href: '/apple-touch-icon.png'}
       ],
       script: [
         {src: 'https://www.googletagmanager.com/gtag/js?id=G-EQPHWVJHSD', async: true},

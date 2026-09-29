@@ -14,7 +14,7 @@
           </h1>
           <p>I help design and develop digital products with a focus on user research and accessibility through design
             systems.
-            I have experience in developing Vue, Nuxt, Wordpress and Drupal websites.
+            I specialise in developing in Vue and Nuxt.
 
           </p>
         </div>
